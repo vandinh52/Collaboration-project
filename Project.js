@@ -17,6 +17,7 @@ function modal(modalId) {
     modal.classList.add("open");
 }
 
+// Modal function close
 function closeModal(modalId) {
     const modal = document.getElementById(modalId);
     modal.classList.remove("open");
