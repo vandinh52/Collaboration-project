@@ -10,3 +10,8 @@ bars.addEventListener('click', () => {
     navShow.classList.toggle("show");
     outerGrid.classList.toggle("outer-grid-expanded");
 })
+
+function modal(modalId) {
+    const modal = document.getElementById(modalId);
+    modal.classList.add("open");
+}
