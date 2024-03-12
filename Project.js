@@ -11,8 +11,8 @@ bars.addEventListener('click', () => {
     outerGrid.classList.toggle("outer-grid-expanded");
 })
 
-// Modal function
-function modal(modalId) {
+// Modal function open
+function openModal(modalId) {
     const modal = document.getElementById(modalId);
     modal.classList.add("open");
 }
