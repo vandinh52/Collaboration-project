@@ -27,3 +27,12 @@ increase count of download on click of button
 const downloadIcon = document.querySelector('.fa-download');
 // Get the count element
 const downloadCount = document.querySelector('#downloadCount');
+// Set the initial count
+let count = 105;
+downloadIcon.addEventListener('click', function () {
+    // Increase the count
+    count += 1;
+    // Update the count in the DOM
+    downloadCount.textContent = count;
+});
+
