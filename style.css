@@ -264,33 +264,58 @@ INNER GRID
 }
 
 .aside {
-    background-color: var(--c-ascent);
-    grid-area: alias-aside;
-    padding: 0 1.2rem;
+  background-color: var(--c-ascent);
+  grid-area: alias-aside;
+  padding: 0 1.2rem;
+}
+
+.aside > * {
+  margin-top: 50px;
+}
+
+.aside .aside__event > * {
+  margin-bottom: 1.2rem;
+}
+
+.aside .aside__links {
+  margin-bottom: 1.2rem;
+}
+
+.footer {
+  background-color: var(--c-dark);
+  grid-area: alias-footer;
+  color: var(--c-grey);
+  padding: 1.5rem;
+  text-align: center;
+}
+.footer a {
+  color: var(--c-ascent);
+}
+
+/*
+  ====================
+RESPONSIVE DESIGN
+====================
+*/
+@media (min-width: 768px) {
+  .outer-grid {
+    grid-template-areas:
+      "alias-header alias-header"
+      "alias-navbar alias-inner-grid";
   }
-  
-  .aside > * {
-    margin-top: 50px;
+  .navbar {
+    display: block;
   }
-  
-  .aside .aside__event > * {
-    margin-bottom: 1.2rem;
+  .header button {
+    display: none;
   }
-  
-  .aside .aside__links {
-    margin-bottom: 1.2rem;
+}
+@media (min-width: 992px) {
+  .inner-grid {
+    grid-template-rows: 1fr 70px;
+    grid-template-columns: 1fr minmax(auto, 200px);
+    grid-template-areas:
+      "alias-main alias-aside"
+      "alias-footer alias-footer";
   }
-  
-  .footer {
-    background-color: var(--c-dark);
-    grid-area: alias-footer;
-    color: var(--c-grey);
-    padding: 1.5rem;
-    text-align: center;
-  }
-  .footer a {
-    color: var(--c-ascent);
-  }
-  
-  /*
-  
+}
