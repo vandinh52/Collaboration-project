@@ -263,6 +263,11 @@ INNER GRID
   margin-right: 2px;
 }
 
+.summary__card .fa-download {
+  color: var(--c-primary);
+  cursor: pointer;
+}
+
 .aside {
   background-color: var(--c-ascent);
   grid-area: alias-aside;
