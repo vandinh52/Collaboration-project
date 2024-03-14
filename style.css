@@ -87,3 +87,86 @@ GENERIC STYLING
     "alias-header alias-header"
     "alias-navbar alias-inner-grid";
 }
+
+.header {
+  background-color: var(--c-primary);
+  grid-area: alias-header;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header .header__left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Toggle button */
+#bars {
+  padding: 0.4rem;
+  margin-right: 40px;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid var(--c-grey);
+  border-radius: 5px;
+  background-color: transparent;
+  color: var(--c-grey);
+}
+
+.header .logo {
+  position: relative;
+  font-weight: 900;
+  font-size: 2rem;
+  color: var(--c-grey);
+}
+
+.header .logo img {
+  width: 65px;
+}
+
+.header .logo a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.header .header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--c-grey);
+}
+
+.header .nav-link {
+  color: var(--c-grey);
+}
+
+.header .nav-link:hover {
+  color: var(--c-white);
+}
+
+.nav-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.nav-item a::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.header .header__nav > *:not(:last-child) {
+  margin-right: 20px;
+}
