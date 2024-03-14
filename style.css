@@ -262,3 +262,35 @@ INNER GRID
 .dashboard .summary__card-footer > *:not(:last-child) {
   margin-right: 2px;
 }
+
+.aside {
+    background-color: var(--c-ascent);
+    grid-area: alias-aside;
+    padding: 0 1.2rem;
+  }
+  
+  .aside > * {
+    margin-top: 50px;
+  }
+  
+  .aside .aside__event > * {
+    margin-bottom: 1.2rem;
+  }
+  
+  .aside .aside__links {
+    margin-bottom: 1.2rem;
+  }
+  
+  /* .footer {
+    background-color: var(--c-dark);
+    grid-area: alias-footer;
+    color: var(--c-grey);
+    padding: 1.5rem;
+    text-align: center;
+  }
+  .footer a {
+    color: var(--c-ascent);
+  } */
+  
+  /*
+  
