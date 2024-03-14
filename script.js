@@ -20,3 +20,10 @@ function closeModal(modalId) {
     const modal = document.getElementById(modalId);
     modal.classList.remove("open");
 }
+/* 
+increase count of download on click of button
+*/
+// Get the fa-download icon element
+const downloadIcon = document.querySelector('.fa-download');
+// Get the count element
+const downloadCount = document.querySelector('#downloadCount');
