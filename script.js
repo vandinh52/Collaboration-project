@@ -21,9 +21,25 @@ function closeModal(modalId) {
     modal.classList.remove("open");
 }
 /* 
+<<<<<<< HEAD
 increase count of download on click of button
+=======
+the count on the download on click button increased
+>>>>>>> e805139ecae986b7ade34479407aa00642acb3fe
 */
 // Get the fa-download icon element
 const downloadIcon = document.querySelector('.fa-download');
 // Get the count element
 const downloadCount = document.querySelector('#downloadCount');
+<<<<<<< HEAD
+=======
+// Set the initial count
+let count = 105;
+downloadIcon.addEventListener('click', function () {
+    // Increase the count
+    count += 1;
+    // Update the count in the DOM
+    downloadCount.textContent = count;
+}); 
+
+>>>>>>> e805139ecae986b7ade34479407aa00642acb3fe
