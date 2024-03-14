@@ -281,7 +281,7 @@ INNER GRID
     margin-bottom: 1.2rem;
   }
   
-  /* .footer {
+  .footer {
     background-color: var(--c-dark);
     grid-area: alias-footer;
     color: var(--c-grey);
@@ -290,7 +290,7 @@ INNER GRID
   }
   .footer a {
     color: var(--c-ascent);
-  } */
+  }
   
   /*
   
