@@ -8,172 +8,172 @@
   </head>
   <body>
     <div class="outer-grid">
-        <header class="header">
-          <div class="header__left">
-            <button id="bars">
-              <i class="fa-solid fa-bars"></i>
-            </button>
-            <div class="logo">
-              <!-- <img src="./img/logo.svg" alt="logo" /> -->
-              LOGO
-              <a href="index.html"></a>
+      <header class="header">
+        <div class="header__left">
+          <button id="bars">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div class="logo">
+            <!-- <img src="./img/logo.svg" alt="logo" /> -->
+            LOGO
+            <a href="index.html"></a>
+          </div>
+        </div>
+        <nav class="header__right">
+          <div class="header__nav nav-inner">
+            <div class="header__nav-item nav-item">
+              <i class="fa-brands fa-youtube"></i>
+              <a
+                href="javascript:void(0)"
+                class="nav-link"
+                onclick="openModal('videoModal')"
+              >
+                Videos
+              </a>
+            </div>
+            <div class="header__nav-item nav-item">
+              <i class="fa-regular fa-address-card"></i>
+              <a
+                href="javascript:void(0)"
+                class="nav-link"
+                onclick="openModal('contactModal')"
+              >
+                Contact
+              </a>
             </div>
           </div>
-          <nav class="header__right">
-            <div class="header__nav nav-inner">
-              <div class="header__nav-item nav-item">
-                <i class="fa-brands fa-youtube"></i>
-                <a
-                  href="javascript:void(0)"
-                  class="nav-link"
-                  onclick="openModal('videoModal')"
-                >
-                  Videos
-                </a>
-              </div>
-              <div class="header__nav-item nav-item">
-                <i class="fa-regular fa-address-card"></i>
-                <a
-                  href="javascript:void(0)"
-                  class="nav-link"
-                  onclick="openModal('contactModal')"
-                >
-                  Contact
-                </a>
-              </div>
-            </div>
-          </nav>
-        </header>
-        <nav class="navbar">
-            <div class="navbar__nav nav-inner">
-              <div class="navbar__nav-item nav-item">
-                <i class="fa-solid fa-gauge"></i>
-                <a href="index.html" class="nav-link">Dashboard</a>
-              </div>
-              <div class="navbar__nav-item nav-item">
-                <i class="fa-regular fa-message"></i>
-                <a
-                  href="javascript:void(0)"
-                  class="nav-link"
-                  onclick="openModal('messageModal')"
-                >
-                  Messages
-                </a>
-              </div>
-              <div class="navbar__nav-item nav-item">
-                <i class="fa-solid fa-sliders"></i>
-                <a
-                  href="javascript:void(0)"
-                  class="nav-link"
-                  onclick="openModal('settingModal')"
-                >
-                  Settings
-                </a>
-              </div>
-            </div>
-          </nav>
-          <div class="inner-grid">
-            <main class="dashboard">
-              <div class="summary">
-                <div class="summary__card">
-                  <div class="summary__card-body">
-                    <div class="summary__card-top">
-                      <i class="fa-solid fa-database summary__card-icon"></i>
-                      <div class="summary__card-count">
-                        <p>Capacity</p>
-                        <h3>105GB</h3>
-                      </div>
-                    </div>
-                    <div class="summary__card-footer">
-                      <i class="fa-solid fa-clock-rotate-left"></i>
-                      In the last hour
-                    </div>
-                  </div>
-                </div>
-                <div class="summary__card">
-                  <div class="summary__card-body">
-                    <div class="summary__card-top">
-                      <i class="fa-solid fa-database summary__card-icon"></i>
-                      <div class="summary__card-count">
-                        <p>Capacity</p>
-                        <h3>105GB</h3>
-                      </div>
-                    </div>
-                    <div class="summary__card-footer">
-                      <i class="fa-solid fa-clock-rotate-left"></i>
-                      In the last hour
-                    </div>
-                  </div>
-                </div>
-                <div class="summary__card">
-                  <div class="summary__card-body">
-                    <div class="summary__card-top">
-                      <i class="fa-solid fa-database summary__card-icon"></i>
-                      <div class="summary__card-count">
-                        <p>Capacity</p>
-                        <h3>105GB</h3>
-                      </div>
-                    </div>
-                    <div class="summary__card-footer">
-                      <i class="fa-solid fa-clock-rotate-left"></i>
-                      In the last hour
-                    </div>
-                  </div>
-                </div>
-                <div class="summary__card">
-                  <div class="summary__card-body">
-                    <div class="summary__card-top">
-                      <i class="fa-solid fa-database summary__card-icon"></i>
-                      <div class="summary__card-count">
-                        <p>Capacity</p>
-                        <h3>105GB</h3>
-                      </div>
-                    </div>
-                    <div class="summary__card-footer">
-                      <i class="fa-solid fa-clock-rotate-left"></i>
-                      In the last hour
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </main>
-            <aside class="aside">
-              <div class="aside__event">
-                <h3>Upcoming Events</h3>
-                <div class="aside__event1">
-                  <img
-                    src="https://source.unsplash.com/random?school%20event/300x300"
-                    class="d-block mx-lg-auto img-fluid"
-                    alt="event one"
-                    loading="lazy"
-                  />
-                </div>
-                <div class="aside__event2">
-                  <img
-                    src="https://source.unsplash.com/random?job%20event/300x300"
-                    class="d-block mx-lg-auto img-fluid"
-                    alt="event two"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-              <div class="aside__links">
-                <h3>Quick Links</h3>
-                <ul>
-                  <li><a href="#">Lorem.</a></li>
-                  <li><a href="#">Lorem, ipsum.</a></li>
-                  <li><a href="#">Lorem, ipsum dolor.</a></li>
-                  <li><a href="#">Lorem ipsum dolor sit.</a></li>
-                  <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
-                  <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
-                </ul>
-              </div>
-            </aside>
-            <footer class="footer">
-              Copyright © 2024
-              <a href="#">WDDm 115 - Group 8</a>. All rights reserved.
-            </footer>
+        </nav>
+      </header>
+      <nav class="navbar">
+        <div class="navbar__nav nav-inner">
+          <div class="navbar__nav-item nav-item">
+            <i class="fa-solid fa-gauge"></i>
+            <a href="index.html" class="nav-link">Dashboard</a>
           </div>
+          <div class="navbar__nav-item nav-item">
+            <i class="fa-regular fa-message"></i>
+            <a
+              href="javascript:void(0)"
+              class="nav-link"
+              onclick="openModal('messageModal')"
+            >
+              Messages
+            </a>
+          </div>
+          <div class="navbar__nav-item nav-item">
+            <i class="fa-solid fa-sliders"></i>
+            <a
+              href="javascript:void(0)"
+              class="nav-link"
+              onclick="openModal('settingModal')"
+            >
+              Settings
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div class="inner-grid">
+        <main class="dashboard">
+          <div class="summary">
+            <div class="summary__card">
+              <div class="summary__card-body">
+                <div class="summary__card-top">
+                  <i class="fa-solid fa-database summary__card-icon"></i>
+                  <div class="summary__card-count">
+                    <p>Capacity</p>
+                    <h3>105GB</h3>
+                  </div>
+                </div>
+                <div class="summary__card-footer">
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                  In the last hour
+                </div>
+              </div>
+            </div>
+            <div class="summary__card">
+              <div class="summary__card-body">
+                <div class="summary__card-top">
+                  <i class="fa-solid fa-database summary__card-icon"></i>
+                  <div class="summary__card-count">
+                    <p>Capacity</p>
+                    <h3>105GB</h3>
+                  </div>
+                </div>
+                <div class="summary__card-footer">
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                  In the last hour
+                </div>
+              </div>
+            </div>
+            <div class="summary__card">
+              <div class="summary__card-body">
+                <div class="summary__card-top">
+                  <i class="fa-solid fa-database summary__card-icon"></i>
+                  <div class="summary__card-count">
+                    <p>Capacity</p>
+                    <h3>105GB</h3>
+                  </div>
+                </div>
+                <div class="summary__card-footer">
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                  In the last hour
+                </div>
+              </div>
+            </div>
+            <div class="summary__card">
+              <div class="summary__card-body">
+                <div class="summary__card-top">
+                  <i class="fa-solid fa-database summary__card-icon"></i>
+                  <div class="summary__card-count">
+                    <p>Capacity</p>
+                    <h3>105GB</h3>
+                  </div>
+                </div>
+                <div class="summary__card-footer">
+                  <i class="fa-solid fa-clock-rotate-left"></i>
+                  In the last hour
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <aside class="aside">
+          <div class="aside__event">
+            <h3>Upcoming Events</h3>
+            <div class="aside__event1">
+              <img
+                src="https://source.unsplash.com/random?school%20event/300x300"
+                class="d-block mx-lg-auto img-fluid"
+                alt="event one"
+                loading="lazy"
+              />
+            </div>
+            <div class="aside__event2">
+              <img
+                src="https://source.unsplash.com/random?job%20event/300x300"
+                class="d-block mx-lg-auto img-fluid"
+                alt="event two"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <div class="aside__links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#">Lorem.</a></li>
+              <li><a href="#">Lorem, ipsum.</a></li>
+              <li><a href="#">Lorem, ipsum dolor.</a></li>
+              <li><a href="#">Lorem ipsum dolor sit.</a></li>
+              <li><a href="#">Lorem ipsum dolor sit amet.</a></li>
+              <li><a href="#">Lorem ipsum dolor sit amet consectetur.</a></li>
+            </ul>
+          </div>
+        </aside>
+        <footer class="footer">
+          Copyright © 2024
+          <a href="#">WDDm 115 - Group 8</a>. All rights reserved.
+        </footer>
+      </div>
     </div>
     <script src="./script.js"></script>
 
