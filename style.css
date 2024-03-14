@@ -54,3 +54,36 @@ a {
 a:hover {
   color: var(--c-dark);
 }
+
+/*
+====================
+GENERIC STYLING
+====================
+*/
+.d-flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+/*
+  ====================
+  OUTER GRID
+  ====================
+  */
+.outer-grid {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 100px 1fr;
+  grid-template-columns: minmax(auto, 120px) 1fr;
+  grid-template-areas:
+    "alias-header alias-header"
+    "alias-inner-grid alias-inner-grid";
+  transition: grid-template-areas 5s;
+}
+
+.outer-grid-expanded {
+  grid-template-areas:
+    "alias-header alias-header"
+    "alias-navbar alias-inner-grid";
+}
