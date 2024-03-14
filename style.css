@@ -170,3 +170,23 @@ GENERIC STYLING
 .header .header__nav > *:not(:last-child) {
   margin-right: 20px;
 }
+
+.navbar {
+  background-color: var(--c-grey);
+  grid-area: alias-navbar;
+  display: none;
+  transition: all 0.5s;
+}
+
+.navbar.show {
+  display: block;
+}
+
+.navbar__nav {
+  margin-top: 50px;
+}
+
+.navbar__nav-item {
+  margin-bottom: 1.5rem;
+  color: var(--c-primary);
+}
