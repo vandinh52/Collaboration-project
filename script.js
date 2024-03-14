@@ -21,7 +21,7 @@ function closeModal(modalId) {
     modal.classList.remove("open");
 }
 /* 
-increase count of download on click of button
+the count on the download on click button increased
 */
 // Get the fa-download icon element
 const downloadIcon = document.querySelector('.fa-download');
