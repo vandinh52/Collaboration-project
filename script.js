@@ -34,5 +34,5 @@ downloadIcon.addEventListener('click', function () {
     count += 1;
     // Update the count in the DOM
     downloadCount.textContent = count;
-});
+}); 
 
